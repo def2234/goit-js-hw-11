@@ -1,0 +1,66 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 0 15px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  flex-basis: calc((100% - 20px) / 3);
+}
+
+.container {
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #3c84ab;
+  position: sticky;
+  top: 0;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+form input {
+  margin-right: 10px;
+  padding: 0 15px;
+}
+
+form button {
+  display: block;
+  height: 40px;
+  cursor: pointer;
+}
+
+.load-more {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  height: 30px;
+  border: 0;
+  border-radius: 2px;
+  background-color: #85cdfd;
+  cursor: pointer;
+}
+
+.load-more:hover {
+  background-color: #3c84ab;
+}
+
+.load-more-hidden {
+  display: none;
+}
+
+.photo-card img {
+  height: 300px;
+  width: 100%;
+}
